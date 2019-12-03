@@ -1,10 +1,24 @@
+import sys
+import utils
 import numpy as np
 from sklearn import svm
 from sklearn import neighbors
 
+dataset_path = '../res/dataset/'
+dataset_file = sys.argv[1]
+
+test_file = dataset_path + dataset_file + '_test.csv'
+train_file = dataset_path + dataset_file + '_train.csv'
+
+print(test_file)
 
 def main():
-    dataset = []
+    train = utils.parse_dataset(train_file)
+    test = utils.parse_dataset(test_file)
+
+    dataset_train = utils.get_data_label(train)
+    dataset_test = utils.get_data_label(test)
+
     data, labels = [], []
     run_svm_linear(data, labels)
     run_svm_rbf(data, labels)
