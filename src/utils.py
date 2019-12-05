@@ -2,8 +2,6 @@ import random
 import numpy as np
 from pdb import set_trace as pause
 
-neurons = 20
-
 def parse_dataset(file):
     data = np.genfromtxt(file, delimiter=',', skip_header=2)
     problem_args = list(np.genfromtxt(file, skip_footer=len(data), dtype=str))
@@ -32,4 +30,6 @@ def get_data_label(dataset):
 
 def get_row(dataset, index=-1):
     resp = dataset['data'][random.randrange(len(dataset['data']))] if index == -1 else dataset['data'][index]
-    return resp[:dataset['args']['dims']], resp[dataset['args']['dims']:]
+    label = resp[dataset['args']['dims']:]
+
+    return resp[:dataset['args']['dims']], np.argmax(label) if len(label) > 1 else int(label[0])
