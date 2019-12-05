@@ -1,0 +1,183 @@
+../res/dataset/LS_test.csv
+============= SVM KERNEL LINEAR =============
+SETTINGS:
+- C param:  0.1
+	CLASS:  0
+		Revocação:  100.0 %
+		Precisão:  96.19 %
+		accuracy:  98.0 %
+	CLASS:  1
+		Revocação:  95.96 %
+		Precisão:  100.0 %
+		accuracy:  98.0 %
+SETTINGS:
+- C param:  1
+	CLASS:  0
+		Revocação:  100.0 %
+		Precisão:  96.65 %
+		accuracy:  98.25 %
+	CLASS:  1
+		Revocação:  96.46 %
+		Precisão:  100.0 %
+		accuracy:  98.25 %
+SETTINGS:
+- C param:  10
+	CLASS:  0
+		Revocação:  100.0 %
+		Precisão:  96.65 %
+		accuracy:  98.25 %
+	CLASS:  1
+		Revocação:  96.46 %
+		Precisão:  100.0 %
+		accuracy:  98.25 %
+============= SVM KERNEL RBF =============
+SETTINGS:
+- C param:  0.1
+- gamma param:  0.1
+	CLASS:  0
+		Revocação:  100.0 %
+		Precisão:  94.39 %
+		accuracy:  97.0 %
+	CLASS:  1
+		Revocação:  93.94 %
+		Precisão:  100.0 %
+		accuracy:  97.0 %
+SETTINGS:
+- C param:  0.1
+- gamma param:  1
+	CLASS:  0
+		Revocação:  100.0 %
+		Precisão:  96.65 %
+		accuracy:  98.25 %
+	CLASS:  1
+		Revocação:  96.46 %
+		Precisão:  100.0 %
+		accuracy:  98.25 %
+SETTINGS:
+- C param:  0.1
+- gamma param:  10
+	CLASS:  0
+		Revocação:  100.0 %
+		Precisão:  96.65 %
+		accuracy:  98.25 %
+	CLASS:  1
+		Revocação:  96.46 %
+		Precisão:  100.0 %
+		accuracy:  98.25 %
+SETTINGS:
+- C param:  1
+- gamma param:  0.1
+	CLASS:  0
+		Revocação:  100.0 %
+		Precisão:  96.65 %
+		accuracy:  98.25 %
+	CLASS:  1
+		Revocação:  96.46 %
+		Precisão:  100.0 %
+		accuracy:  98.25 %
+SETTINGS:
+- C param:  1
+- gamma param:  1
+	CLASS:  0
+		Revocação:  100.0 %
+		Precisão:  96.65 %
+		accuracy:  98.25 %
+	CLASS:  1
+		Revocação:  96.46 %
+		Precisão:  100.0 %
+		accuracy:  98.25 %
+SETTINGS:
+- C param:  1
+- gamma param:  10
+	CLASS:  0
+		Revocação:  100.0 %
+		Precisão:  96.65 %
+		accuracy:  98.25 %
+	CLASS:  1
+		Revocação:  96.46 %
+		Precisão:  100.0 %
+		accuracy:  98.25 %
+SETTINGS:
+- C param:  10
+- gamma param:  0.1
+	CLASS:  0
+		Revocação:  100.0 %
+		Precisão:  96.65 %
+		accuracy:  98.25 %
+	CLASS:  1
+		Revocação:  96.46 %
+		Precisão:  100.0 %
+		accuracy:  98.25 %
+SETTINGS:
+- C param:  10
+- gamma param:  1
+	CLASS:  0
+		Revocação:  100.0 %
+		Precisão:  96.65 %
+		accuracy:  98.25 %
+	CLASS:  1
+		Revocação:  96.46 %
+		Precisão:  100.0 %
+		accuracy:  98.25 %
+SETTINGS:
+- C param:  10
+- gamma param:  10
+	CLASS:  0
+		Revocação:  100.0 %
+		Precisão:  96.65 %
+		accuracy:  98.25 %
+	CLASS:  1
+		Revocação:  96.46 %
+		Precisão:  100.0 %
+		accuracy:  98.25 %
+============= KNN =============
+SETTINGS:
+- K param:  1
+	CLASS:  0
+		Revocação:  97.52 %
+		Precisão:  97.52 %
+		accuracy:  97.5 %
+	CLASS:  1
+		Revocação:  97.47 %
+		Precisão:  97.47 %
+		accuracy:  97.5 %
+SETTINGS:
+- K param:  2
+	CLASS:  0
+		Revocação:  100.0 %
+		Precisão:  95.28 %
+		accuracy:  97.5 %
+	CLASS:  1
+		Revocação:  94.95 %
+		Precisão:  100.0 %
+		accuracy:  97.5 %
+SETTINGS:
+- K param:  5
+	CLASS:  0
+		Revocação:  99.5 %
+		Precisão:  96.63 %
+		accuracy:  98.0 %
+	CLASS:  1
+		Revocação:  96.46 %
+		Precisão:  99.48 %
+		accuracy:  98.0 %
+SETTINGS:
+- K param:  10
+	CLASS:  0
+		Revocação:  99.5 %
+		Precisão:  96.63 %
+		accuracy:  98.0 %
+	CLASS:  1
+		Revocação:  96.46 %
+		Precisão:  99.48 %
+		accuracy:  98.0 %
+SETTINGS:
+- K param:  100
+	CLASS:  0
+		Revocação:  100.0 %
+		Precisão:  96.65 %
+		accuracy:  98.25 %
+	CLASS:  1
+		Revocação:  96.46 %
+		Precisão:  100.0 %
+		accuracy:  98.25 %
